@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>VFS Assistente</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Cadastro para Agendamento VFS</h2>
+
+<form id="userForm">
+  <input placeholder="Nome" id="first_name">
+  <input placeholder="Sobrenome" id="last_name">
+  <input placeholder="Passaporte" id="passport">
+  <input type="date" id="birth_date">
+  <input placeholder="Telefone" id="phone">
+  <input placeholder="Email" id="email">
+  <button>Cadastrar</button>
+</form>
+
+<hr>
+
+<h3>Preparar Agendamento</h3>
+<select id="userSelect">
+  <option value="">-- Selecione um usuário --</option>
+</select>
+
+<button id="prepare">Preparar dados VFS</button>
+
+
+<script src="script.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
