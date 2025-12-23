@@ -1,4 +1,5 @@
 VFS Save Point API
+
 📌 Descrição
 
 O VFS Save Point API é uma solução completa para agilizar o preenchimento do formulário de agendamento de vistos no site da VFS Global
@@ -56,6 +57,8 @@ GET	/get_users.php	Lista todos os usuários cadastrados	—
 GET	/get_user.php	Busca um usuário pelo ID	Query: id
 POST	/set_active_user.php	Define o usuário ativo	x-www-form-urlencoded: id
 GET	/get_active_user.php	Retorna o usuário ativo atual	—
+
+
 🖥️ Painel Local (Frontend)
 
 Interface simples para:
@@ -65,6 +68,7 @@ Cadastrar novos usuários.
 Selecionar um usuário e prepará-lo para VFS.
 
 Botão “Preparar para VFS” define o usuário ativo na API, pronto para ser consumido pelo Tampermonkey.
+
 
 📜 Tampermonkey Script
 Funcionalidade
